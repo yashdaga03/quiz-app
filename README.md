@@ -17,7 +17,8 @@ Installation -
 		- Clone this repository.
 		- Run: npm install
 		- Run: npm test (to check all tests are passing or not)
-		- Run: npm run start
+		- Run: npm run build
+		- Run: npm start
 	- Docker:
 		- Clone the repository.
 		- Run: docker compose up --build
