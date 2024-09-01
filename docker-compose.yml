@@ -6,6 +6,4 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=production
-    volumes:
-      - .:/app
-    command: npm start
+    command: sh -c "npm run build && npm start"
